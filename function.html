@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title> Процедуры и функции</title>
+    <link rel="shortcut icon" href="href=">
+</head>
+<body style="background-color: #E0FFFF">
+    <h1 style="position: relative; text-align: center; background-color: #90EE90 ">Процедуры и функции </h1>
+    <hr>
+    <p style="position: relative; left: 3%; width: 97%;">
+        Процедура или функция представляет собой последовательность операторов, которая имеет имя, список параметров и может быть вызвана из различных частей программы. Функции, в отличие от процедур, в результате своего выполнения возвращают значение, которое может быть использовано в выражении. Для единообразия функции и процедуры называются подпрограммами.<br>
+        Program Metka;<br>
+        label 1,2;<br>
+        var A, B:integer;<br>
+        begin<br>
+        readln (A);<br>
+        2: if A=5 then goto 1; {2: - действие после перехода на соответствующую метку,}<br>
+        A:=A+1; {goto - переход на метку}<br>
+        goto 2;<br>
+        1: write (A);<br>
+        end.
+    </p>
+    <p style="position: relative; left: 3%; width: 97%;">
+        На данном примере, программа увеличивает на 1 введенное число, пока оно не станет равным пяти. Тут мы и можем проследить действие метки.
+    </p>
+    <p style="position: relative; left: 3%; width: 97%;">
+        Delay(время) – остановка программы с задержкой, время в кавычках указывается в миллисекундах.<br>
+        Readkey – остановка программы до нажатия клавиши, значение функции – код нажатой клавиши.<br>
+        Exit – досрочное завершение процедуры.<br>
+        Следует заметить, что для работы delay, readkey, и exit необходимо подключить модуль crt (uses crt).
+    </p>
+    <button style="background-color:#98FB98; position: relative; height: 50px; width: 200px; left: 50px;">
+        <li>
+            <a href="index.html">
+                На главную страницу
+            </a>
+        </li>
+    </button>
+
+
+
+
+</body>
+</html>

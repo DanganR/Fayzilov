@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title> Операторы</title>
+    <link rel="shortcut icon" href="href=">
+</head>
+<body style="background-color: #E0FFFF">
+    <h1 style="position: relative; text-align: center; background-color: #90EE90 ">Операторы </h1>
+    <hr>
+    <p style="position: relative; left: 3%; width: 97%;">
+        Теперь поговорим о вводе данных. Мы уже познакомились с оператором write, но существуют также и другие. Writeln, к примеру, используется для вывода данных с переходом на новую строку. Зачем? Ну, например чтобы дать какой-нибудь переменной значение:<br>
+
+        Program Programma1;<br>
+        var A:integer;<br>
+        begin<br>
+        writeln("A= "); read(A); {ввести значение и «прикрепить» его к переменной A}<br>
+        write(A); {Вывести значение переменной A}<br>
+        end.
+    </p>
+    <p style="position: relative; left: 3%; width: 97%;">
+        Как вы видите, я вкратце описал каждое действие в фигурных скобках. Это называется комментарий. В дальнейшем я также буду использовать их для объяснений.
+        В этом примере для присваивания к переменной значения, введенного с клавиатуры используется оператор read. Мы видим, что при выполнении он прочитал строку в переменную А. А другой оператор, readln работает по другому. Используя его, мы можем сразу ввести нужную строку, и она прочитается в переменную:
+    </p>
+    <p style="position: relative; left: 3%; width: 97%;">
+        Program Programma1;<br>
+        var A:integer;<br>
+        begin<br>
+        readln(A);<br>
+        write("A= ", A); {строка будет выглядеть так: «А= " введенное значение А " „}<br>
+        end.
+    </p>
+    <button style="background-color:#98FB98; position: relative; height: 50px; width: 200px; left: 50px;">
+        <li>
+            <a href="index.html">
+                На главную страницу
+            </a>
+        </li>
+    </button>
+    
+
+
+
+</body>
+</html>
